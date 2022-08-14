@@ -1,0 +1,403 @@
+{
+	"id": "868c827ee835b3af287539606bde2335",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.16",
+	"solcLongVersion": "0.8.16+commit.07a7930e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/welcome-solidity.sol": {
+				"content": "pragma solidity ^0.8.8;\r\n\r\ncontract WelcomeSolidity {\r\n    constructor() public {\r\n\r\n    }\r\n\r\n    \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"contracts/welcome-solidity.sol": {
+				"WelcomeSolidity": {
+					"abi": [
+						{
+							"inputs": [],
+							"stateMutability": "nonpayable",
+							"type": "constructor"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"contracts/welcome-solidity.sol\":27:101  contract WelcomeSolidity {... */\n  mstore(0x40, 0x80)\n    /* \"contracts/welcome-solidity.sol\":59:90  constructor() public {... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"contracts/welcome-solidity.sol\":27:101  contract WelcomeSolidity {... */\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"contracts/welcome-solidity.sol\":27:101  contract WelcomeSolidity {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa26469706673582212205476b7b4799f581f021cd61f87f1bc44acd9247fe7f5c550f68a494a4621e14864736f6c63430008100033\n}\n",
+						"bytecode": {
+							"functionDebugData": {
+								"@_5": {
+									"entryPoint": null,
+									"id": 5,
+									"parameterSlots": 0,
+									"returnSlots": 0
+								}
+							},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212205476b7b4799f581f021cd61f87f1bc44acd9247fe7f5c550f68a494a4621e14864736f6c63430008100033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLOAD PUSH23 0xB7B4799F581F021CD61F87F1BC44ACD9247FE7F5C550F6 DUP11 0x49 0x4A CHAINID 0x21 0xE1 BASEFEE PUSH5 0x736F6C6343 STOP ADDMOD LT STOP CALLER ",
+							"sourceMap": "27:74:0:-:0;;;59:31;;;;;;;;;;27:74;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea26469706673582212205476b7b4799f581f021cd61f87f1bc44acd9247fe7f5c550f68a494a4621e14864736f6c63430008100033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLOAD PUSH23 0xB7B4799F581F021CD61F87F1BC44ACD9247FE7F5C550F6 DUP11 0x49 0x4A CHAINID 0x21 0xE1 BASEFEE PUSH5 0x736F6C6343 STOP ADDMOD LT STOP CALLER ",
+							"sourceMap": "27:74:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 59,
+									"end": 90,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 27,
+									"end": 101,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a26469706673582212205476b7b4799f581f021cd61f87f1bc44acd9247fe7f5c550f68a494a4621e14864736f6c63430008100033",
+									".code": [
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 27,
+											"end": 101,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"contracts/welcome-solidity.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/welcome-solidity.sol\":\"WelcomeSolidity\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/welcome-solidity.sol\":{\"keccak256\":\"0x0f660d1969a2e4e441730cc8ad0813faf42f38486351d95a19652a63471e9b9d\",\"urls\":[\"bzz-raw://3e7a58d04d54bfc817c855b2d30f9c91cfe04bb03e4a11a07326e725de62a3f5\",\"dweb:/ipfs/QmNofkfEitCUCc4x1xxu2ZLF4wXMmGdXLDb6ZrSrYZ4tZp\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/welcome-solidity.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/welcome-solidity.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "2462",
+				"formattedMessage": "Warning: Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.\n --> contracts/welcome-solidity.sol:4:5:\n  |\n4 |     constructor() public {\n  |     ^ (Relevant source part starts here and spans across multiple lines).\n\n",
+				"message": "Visibility for constructor is ignored. If you want the contract to be non-deployable, making it \"abstract\" is sufficient.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": 90,
+					"file": "contracts/welcome-solidity.sol",
+					"start": 59
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/welcome-solidity.sol": {
+				"ast": {
+					"absolutePath": "contracts/welcome-solidity.sol",
+					"exportedSymbols": {
+						"WelcomeSolidity": [
+							6
+						]
+					},
+					"id": 7,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".8"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "WelcomeSolidity",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 6,
+							"linearizedBaseContracts": [
+								6
+							],
+							"name": "WelcomeSolidity",
+							"nameLocation": "36:15:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 4,
+										"nodeType": "Block",
+										"src": "80:10:0",
+										"statements": []
+									},
+									"id": 5,
+									"implemented": true,
+									"kind": "constructor",
+									"modifiers": [],
+									"name": "",
+									"nameLocation": "-1:-1:-1",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "70:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "80:0:0"
+									},
+									"scope": 6,
+									"src": "59:31:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "public"
+								}
+							],
+							"scope": 7,
+							"src": "27:74:0",
+							"usedErrors": []
+						}
+					],
+					"src": "0:101:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

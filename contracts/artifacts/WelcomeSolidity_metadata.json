@@ -4,7 +4,26 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,10 +52,10 @@
 	},
 	"sources": {
 		"contracts/welcome-solidity.sol": {
-			"keccak256": "0x94947c858ec5e092299fa8e51f18d331c52e4c462a0d580bf642ef9bed96c1d1",
+			"keccak256": "0xba69be44a5a157ea3b6b42418c8f5f7b863daf891f7e1ee2b96290edc37fb980",
 			"urls": [
-				"bzz-raw://06cdbc1a3e4c5247dd2100ec8017afa3e2c4ed64744e1fb68ee98ad03f93a8a2",
-				"dweb:/ipfs/QmaZzjW4YrGExXeqhyhgiPWMdDi9bbmD9y7kP9nPMPRwiW"
+				"bzz-raw://ddc7c1fa10567edcf29f2654271654460e3af1ca9b8b2223af455bbffe216b6e",
+				"dweb:/ipfs/QmVRDedm3y1cGMJAQZJk8jf3YXDAiZdo9XWEY8F9roq23X"
 			]
 		}
 	},
