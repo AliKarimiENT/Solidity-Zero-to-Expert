@@ -8,4 +8,14 @@ contract LearnVariables{
     uint storeOwner = 300;
     bool lieDetector = true;
     string errorMessageText = "Error";
+
+    uint wallet;
+    bool spend;
+    string notifySpend;
+    constructor(){
+        wallet = 500;
+        spend = false;
+        notifySpend = "You have spent money";
+    }
+    
 }

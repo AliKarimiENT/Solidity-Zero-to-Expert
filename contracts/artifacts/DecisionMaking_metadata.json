@@ -4,13 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -24,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/variables-and-types.sol": "LearnVariables"
+			"contracts/decision-making.sol": "DecisionMaking"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -38,11 +32,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/variables-and-types.sol": {
-			"keccak256": "0x00eb638215818caeaf9952c6196d7d5767281aa1877fb7548d8b750a4add2c53",
+		"contracts/decision-making.sol": {
+			"keccak256": "0xde0905945f3ebf92bf4a7dfb72dff9858b020a0dc0d0abe613a926b3b3737ed8",
 			"urls": [
-				"bzz-raw://d2fa194c582ef2584b58353dd775c19cfe08b2cc26e67dfbb2a236df0302fa0e",
-				"dweb:/ipfs/QmcwqCJqKqDfZ6skWTZR8VUXgiMMTm4cZGkPzaiMDtJLK4"
+				"bzz-raw://cb94e716e947c868fb62a6f74b13426e3a29e07cf37e0cf1e0c2ba167fd089ad",
+				"dweb:/ipfs/QmTFnhVfiYXUBgNxUghgaH5aEyFyvTKtiwsMUjc3eML4o9"
 			]
 		}
 	},
