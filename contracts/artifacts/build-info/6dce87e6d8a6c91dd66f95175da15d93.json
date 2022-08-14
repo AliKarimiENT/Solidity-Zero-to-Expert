@@ -1,0 +1,70 @@
+{
+	"id": "6dce87e6d8a6c91dd66f95175da15d93",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.6.2",
+	"solcLongVersion": "0.6.2+commit.bacdbe57",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/exercise-assignment.sol": {
+				"content": "pragma solidity >0.5.0 < 0.6.3;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/exercise-assignment.sol": {
+				"ast": {
+					"absolutePath": "contracts/exercise-assignment.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">",
+								"0.5",
+								".0",
+								"<",
+								"0.6",
+								".3"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:31:0"
+						}
+					],
+					"src": "0:31:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
